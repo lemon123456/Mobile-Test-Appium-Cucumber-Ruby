@@ -10,15 +10,15 @@ module Screen
       end
 
       def set_login_username(username)
-        findById("login_username").send_keys("#{username}")
+        findById("com.huawei.it.mypacd.sit:id/login_username").send_keys("#{username}")
       end
 
       def set_login_password(password)
-        findById("login_pswd").send_keys("#{password}")
+        findById("com.huawei.it.mypacd.sit:id/login_pswd").send_keys("#{password}")
       end
 
       def log_in
-        clickById("login_button")
+        clickById("com.huawei.it.mypacd.sit:id/login_button")
       end
 
     end

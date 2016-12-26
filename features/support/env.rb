@@ -8,7 +8,6 @@ desired_cps = {
         platformName: "Android",
         deviceName: "Emulator",
         appPackage: "com.huawei.it.mypacd.sit",
-        # appActivity: "com.huawei.it.mypacd.sit.activity.WelcomeActivity",
         appActivity: "com.huawei.it.mypacd.activity.WelcomeActivity",
         app: APP_PATH,
         noReset: false,
